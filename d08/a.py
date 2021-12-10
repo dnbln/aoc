@@ -13,17 +13,13 @@ for l in v:
 
 print(c)
 
-def common(a, b):
-    return (a & b)
+# part 2
 
- 
 def fl(a, l):
     return next(set(x) for x in a if len(x) == l)
 
 def flm(a, l):
     return [set(x) for x in a if len(x) == l]
-
-# part 2
 
 sum = 0
 for l in v:
