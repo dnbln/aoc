@@ -61,7 +61,7 @@ def step(v):
 clv = v.copy()
 
 fl = 0
-for _ in range(2):
+for _ in range(100):
     fl += step(clv)
     
 print(fl)
